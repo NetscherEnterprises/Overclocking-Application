@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5338167E1B93358A005B17B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338167D1B93358A005B17B3 /* AppDelegate.swift */; };
+		533816801B93358A005B17B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338167F1B93358A005B17B3 /* ViewController.swift */; };
+		533816831B93358A005B17B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533816811B93358A005B17B3 /* Main.storyboard */; };
+		533816851B93358A005B17B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533816841B93358A005B17B3 /* Images.xcassets */; };
+		533816881B93358A005B17B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533816861B93358A005B17B3 /* LaunchScreen.xib */; };
+		533816941B93358A005B17B3 /* Overclocking_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533816931B93358A005B17B3 /* Overclocking_ApplicationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5338168E1B93358A005B17B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533816701B93358A005B17B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533816771B93358A005B17B3;
+			remoteInfo = "Overclocking Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		533816781B93358A005B17B3 /* Overclocking Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overclocking Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5338167C1B93358A005B17B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5338167D1B93358A005B17B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5338167F1B93358A005B17B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		533816821B93358A005B17B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		533816841B93358A005B17B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		533816871B93358A005B17B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5338168D1B93358A005B17B3 /* Overclocking ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Overclocking ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533816921B93358A005B17B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533816931B93358A005B17B3 /* Overclocking_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overclocking_ApplicationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533816751B93358A005B17B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5338168A1B93358A005B17B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5338166F1B93358A005B17B3 = {
+			isa = PBXGroup;
+			children = (
+				5338167A1B93358A005B17B3 /* Overclocking Application */,
+				533816901B93358A005B17B3 /* Overclocking ApplicationTests */,
+				533816791B93358A005B17B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		533816791B93358A005B17B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533816781B93358A005B17B3 /* Overclocking Application.app */,
+				5338168D1B93358A005B17B3 /* Overclocking ApplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5338167A1B93358A005B17B3 /* Overclocking Application */ = {
+			isa = PBXGroup;
+			children = (
+				5338167D1B93358A005B17B3 /* AppDelegate.swift */,
+				5338167F1B93358A005B17B3 /* ViewController.swift */,
+				533816811B93358A005B17B3 /* Main.storyboard */,
+				533816841B93358A005B17B3 /* Images.xcassets */,
+				533816861B93358A005B17B3 /* LaunchScreen.xib */,
+				5338167B1B93358A005B17B3 /* Supporting Files */,
+			);
+			path = "Overclocking Application";
+			sourceTree = "<group>";
+		};
+		5338167B1B93358A005B17B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5338167C1B93358A005B17B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		533816901B93358A005B17B3 /* Overclocking ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				533816931B93358A005B17B3 /* Overclocking_ApplicationTests.swift */,
+				533816911B93358A005B17B3 /* Supporting Files */,
+			);
+			path = "Overclocking ApplicationTests";
+			sourceTree = "<group>";
+		};
+		533816911B93358A005B17B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				533816921B93358A005B17B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533816771B93358A005B17B3 /* Overclocking Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533816971B93358A005B17B3 /* Build configuration list for PBXNativeTarget "Overclocking Application" */;
+			buildPhases = (
+				533816741B93358A005B17B3 /* Sources */,
+				533816751B93358A005B17B3 /* Frameworks */,
+				533816761B93358A005B17B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Overclocking Application";
+			productName = "Overclocking Application";
+			productReference = 533816781B93358A005B17B3 /* Overclocking Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5338168C1B93358A005B17B3 /* Overclocking ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5338169A1B93358A005B17B3 /* Build configuration list for PBXNativeTarget "Overclocking ApplicationTests" */;
+			buildPhases = (
+				533816891B93358A005B17B3 /* Sources */,
+				5338168A1B93358A005B17B3 /* Frameworks */,
+				5338168B1B93358A005B17B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5338168F1B93358A005B17B3 /* PBXTargetDependency */,
+			);
+			name = "Overclocking ApplicationTests";
+			productName = "Overclocking ApplicationTests";
+			productReference = 5338168D1B93358A005B17B3 /* Overclocking ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533816701B93358A005B17B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Netscher Enterprises";
+				TargetAttributes = {
+					533816771B93358A005B17B3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5338168C1B93358A005B17B3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 533816771B93358A005B17B3;
+					};
+				};
+			};
+			buildConfigurationList = 533816731B93358A005B17B3 /* Build configuration list for PBXProject "Overclocking Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5338166F1B93358A005B17B3;
+			productRefGroup = 533816791B93358A005B17B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533816771B93358A005B17B3 /* Overclocking Application */,
+				5338168C1B93358A005B17B3 /* Overclocking ApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533816761B93358A005B17B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533816831B93358A005B17B3 /* Main.storyboard in Resources */,
+				533816881B93358A005B17B3 /* LaunchScreen.xib in Resources */,
+				533816851B93358A005B17B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5338168B1B93358A005B17B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533816741B93358A005B17B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533816801B93358A005B17B3 /* ViewController.swift in Sources */,
+				5338167E1B93358A005B17B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533816891B93358A005B17B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533816941B93358A005B17B3 /* Overclocking_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5338168F1B93358A005B17B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533816771B93358A005B17B3 /* Overclocking Application */;
+			targetProxy = 5338168E1B93358A005B17B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		533816811B93358A005B17B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533816821B93358A005B17B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		533816861B93358A005B17B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533816871B93358A005B17B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		533816951B93358A005B17B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		533816961B93358A005B17B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		533816981B93358A005B17B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Overclocking Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		533816991B93358A005B17B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Overclocking Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5338169B1B93358A005B17B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Overclocking ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overclocking Application.app/Overclocking Application";
+			};
+			name = Debug;
+		};
+		5338169C1B93358A005B17B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Overclocking ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Overclocking Application.app/Overclocking Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533816731B93358A005B17B3 /* Build configuration list for PBXProject "Overclocking Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533816951B93358A005B17B3 /* Debug */,
+				533816961B93358A005B17B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533816971B93358A005B17B3 /* Build configuration list for PBXNativeTarget "Overclocking Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533816981B93358A005B17B3 /* Debug */,
+				533816991B93358A005B17B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5338169A1B93358A005B17B3 /* Build configuration list for PBXNativeTarget "Overclocking ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5338169B1B93358A005B17B3 /* Debug */,
+				5338169C1B93358A005B17B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533816701B93358A005B17B3 /* Project object */;
+}
